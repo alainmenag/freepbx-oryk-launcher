@@ -22,7 +22,7 @@
 		<file>functions.inc.php</file>
 	</files>
 	<assets>
-		<css>assets/css/launcher.css</css>
+		<css>modules/oryk_launcher/assets/css/launcher.css</css>
 	</assets>
 	<menuitems>
 		<index hidden="true" category="Oryk" order="1" display="index" access="all" requires_auth="false">
