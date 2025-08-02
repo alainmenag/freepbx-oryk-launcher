@@ -1,38 +1,43 @@
 <!-- /var/www/html/admin/modules/oryk_launcher/module.xml -->
 <module>
-     <rawname>oryk_launcher</rawname>
-     <name>Launcher</name>
-     <repo>commercial</repo>
-     <version>1.0.9</version>
-     <dbversion>1.0.9</dbversion>
-     <publisher>Oryk</publisher>
+	<rawname>oryk_launcher</rawname>
+	<name>Launcher</name>
+	<repo>commercial</repo>
+	<version>1.0.9</version>
+	<dbversion>1.0.9</dbversion>
+	<publisher>Oryk</publisher>
 	<type>tool</type>
-     <canuninstall>no</canuninstall>
+	<canuninstall>no</canuninstall>
 	<candisable>no</candisable>
-     <license>AGPLv3</license>
-     <licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
-     <changelog>
-          *1.0.1* New
-     </changelog>
-     <category>Oryk</category>
-     <description>Easily navigate and have an overview of key aspects.</description>
-     <more-info>https://oryk.com/voip/launcher</more-info>
-     <location>System Banner</location>
-     <files>
-        <file>functions.inc.php</file>
-     </files>
-    <assets>
-        <css>assets/css/launcher.css</css>
-    </assets>
+	<license>AGPLv3</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<changelog>
+		*1.0.1* New
+	</changelog>
+	<category>Oryk</category>
+	<description>Easily navigate and have an overview of key aspects.</description>
+	<more-info>https://oryk.com/voip/launcher</more-info>
+	<location>System Banner</location>
+	<files>
+		<file>functions.inc.php</file>
+	</files>
+	<assets>
+		<css>assets/css/launcher.css</css>
+	</assets>
 	<menuitems>
-		<oryk_launcher>Launcher</oryk_launcher>
+		<index hidden="true" category="Oryk" order="1" display="index" access="all" requires_auth="false">
+			<![CDATA[
+				<i class="fa fa-dashboard"></i>
+				<span>Dashboard</span>
+			]]>
+		</index>
 	</menuitems>
 	<depends>
 		<module>core</module>
 		<module>userman</module>
 	</depends>
-     <supported>
-        <version>16.0</version>
-        <version>17.0</version>
-     </supported>
+	<supported>
+		<version>16.0</version>
+		<version>17.0</version>
+	</supported>
 </module>

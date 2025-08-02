@@ -44,10 +44,10 @@ $items = [
 		'link' => '/admin/config.php?display=cdr'
 	],
 	[
-		'label' => 'Help',
+		'label' => 'GUI',
 		//'count' => 0, // Placeholder for help count
-		'icon' => 'fa-question-circle',
-		'link' => '/admin/config.php?display=oryk.help'
+		'icon' => 'fa-paint-brush',
+		'link' => '/admin/config.php?display=oryk_gui'
 	]
 	// Add more items as needed
 ];

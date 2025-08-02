@@ -21,10 +21,10 @@ class Oryk_launcher extends FreePBX_Helpers implements \BMO
 
 	public function showPage()
 	{
-		$page = isset($_REQUEST['display']) ? $_REQUEST['display'] : 'default';
+		$page = isset($_REQUEST['display']) ? $_REQUEST['display'] : 'index';
 
 		switch ($page) {
-			case 'oryk_launcher':
+			case 'index':
 
 				return load_view(__DIR__ . '/views/launcher.php', [
 					'users' => ['count' => $this->getCount('userman_users')],
