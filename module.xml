@@ -6,7 +6,9 @@
 	<version>1.0.9</version>
 	<dbversion>1.0.9</dbversion>
 	<publisher>Oryk</publisher>
-	<type>tool</type>
+	<type>setup</type>
+	<class>Oryk_launcher</class>
+	<phpclass>Oryk_launcher</phpclass>
 	<canuninstall>no</canuninstall>
 	<candisable>no</candisable>
 	<license>AGPLv3</license>
@@ -22,7 +24,7 @@
 		<file>functions.inc.php</file>
 	</files>
 	<assets>
-		<css>modules/oryk_launcher/assets/css/launcher.css</css>
+		<css>css/launcher.css</css>
 	</assets>
 	<menuitems>
 		<index hidden="true" category="Oryk" order="1" display="index" access="all" requires_auth="false">
