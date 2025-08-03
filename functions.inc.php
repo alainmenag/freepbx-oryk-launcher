@@ -7,11 +7,11 @@
 // }
 
 
-function oryk_launcher_hook_core() {
-    global $admin;
-    $admin->addJS('/admin/modules/oryk_launcher/js/launcher.js'); // if needed
-    $admin->addCSS('/admin/modules/oryk_launcher/css/launcher.css');
-}
+// function oryk_launcher_hook_core() {
+//     global $admin;
+//     $admin->addJS('/admin/modules/oryk_launcher/js/launcher.js'); // if needed
+//     $admin->addCSS('/admin/modules/oryk_launcher/css/launcher.css');
+// }
 
 
 ?>

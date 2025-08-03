@@ -20,11 +20,14 @@
 	<description>Easily navigate and have an overview of key aspects.</description>
 	<more-info>https://oryk.com/voip/launcher</more-info>
 	<location>System Banner</location>
-	<files>
+	<!-- <files>
 		<file>functions.inc.php</file>
 	</files>
+	<css>
+		<filename>css/sss.css</filename>
+	</css> -->
 	<assets>
-		<css>css/launcher.css</css>
+		<css>css/sss.css</css>
 	</assets>
 	<menuitems>
 		<index hidden="true" category="Oryk" order="1" display="index" access="all" requires_auth="false">
