@@ -127,6 +127,7 @@ class Oryk_launcher extends FreePBX_Helpers implements \BMO
 	//Install method. use this or install.php using both may cause weird behavior
 	public function install()
 	{
+		$this->FreePBX->Config->update('SHOWLANGUAGE', '0');
 	}
 
 	//Uninstall method. use this or install.php using both may cause weird behavior
