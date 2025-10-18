@@ -72,8 +72,15 @@ class Oryk_launcher extends FreePBX_Helpers implements \BMO
 		if ($_SESSION['AMP_user']->checkSection('outbound_routes')) array_push($launchable, [
 			'label' => 'Outbound Routes',
 			'count' => $this->getCount('outbound_routes'),
-			'icon' => 'fa-phone-square',
+			'icon' => 'fa-share-square-o',
 			'link' => '/admin/config.php?display=routing'
+		]);
+
+		if ($_SESSION['AMP_user']->checkSection('oryk_devices')) array_push($launchable, [
+			'label' => 'Devices',
+			'count' => $this->getCount('devices'),
+			'icon' => 'fa-sitemap',
+			'link' => '/admin/config.php?display=oryk_devices'
 		]);
 
 		// if ($_SESSION['AMP_user']->checkSection('voicemail')) array_push($launchable, [
